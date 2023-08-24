@@ -1,1 +1,2 @@
 # VEHICLE-DETECT-AND-COUNTING-USING-OPENCV
+Using OpenCV and NumPy to detect and count vehicles in a video stream. It employs background subtraction, morphological operations, and contour detection to identify moving objects (vehicles). By tracking the centers of detected vehicles and checking their positions in relation to a designated line, it updates and displays the real-time count of vehicles as they cross the line in the video. The code uses graphical elements like bounding rectangles and text to visualize the detected vehicles and the vehicle count on the video frames.
